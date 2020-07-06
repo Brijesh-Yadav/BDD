@@ -1,0 +1,26 @@
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+Feature: 
+  login with username for tag
+
+  @smoke @regression
+  Scenario: login with username for tag               # src/test/resources/testscenarios.feature/Tagex.feature:24
+    Given user navigates to salesforce  for tag       # Tagex.user_navigates_to_salesforce_for_tag()
+    When enter correct username and password  for tag # Tagex.enter_correct_username_and_password_for_tag()
+    Then login should be successful for tag           # Tagex.login_should_be_successful_for_tag()

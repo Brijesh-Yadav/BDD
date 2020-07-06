@@ -1,0 +1,56 @@
+[
+  {
+    "source": "^user navigates to salesforce  for tag$",
+    "steps": [
+      {
+        "name": "user navigates to salesforce  for tag",
+        "aggregatedDurations": {
+          "average": 0.137846144,
+          "median": 0.137846144
+        },
+        "durations": [
+          {
+            "duration": 0.137846144,
+            "location": "src/test/resources/testscenarios.feature/Tagex.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^enter correct username and password  for tag$",
+    "steps": [
+      {
+        "name": "enter correct username and password  for tag",
+        "aggregatedDurations": {
+          "average": 0.000177465,
+          "median": 0.000177465
+        },
+        "durations": [
+          {
+            "duration": 0.000177465,
+            "location": "src/test/resources/testscenarios.feature/Tagex.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^login should be successful for tag$",
+    "steps": [
+      {
+        "name": "login should be successful for tag",
+        "aggregatedDurations": {
+          "average": 0.000175844,
+          "median": 0.000175844
+        },
+        "durations": [
+          {
+            "duration": 0.000175844,
+            "location": "src/test/resources/testscenarios.feature/Tagex.feature:27"
+          }
+        ]
+      }
+    ]
+  }
+]
