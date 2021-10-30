@@ -17,9 +17,10 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+
 Feature:
 login with username
-
+@smoke
 Scenario: login with username 
 Given user navigates to salesforce for datatable
 When enter correct username and password for datatable

@@ -1,53 +1,53 @@
 [
   {
-    "source": "^user navigates to salesforce  for tag$",
+    "source": "^user navigates to salesforce for datatable$",
     "steps": [
       {
-        "name": "user navigates to salesforce  for tag",
+        "name": "user navigates to salesforce for datatable",
         "aggregatedDurations": {
-          "average": 0.137846144,
-          "median": 0.137846144
+          "average": 0.0789011,
+          "median": 0.0789011
         },
         "durations": [
           {
-            "duration": 0.137846144,
-            "location": "src/test/resources/testscenarios.feature/Tagex.feature:25"
+            "duration": 0.0789011,
+            "location": "src/test/resources/testscenarios.feature/DataTable.feature:25"
           }
         ]
       }
     ]
   },
   {
-    "source": "^enter correct username and password  for tag$",
+    "source": "^enter correct username and password for datatable$",
     "steps": [
       {
-        "name": "enter correct username and password  for tag",
+        "name": "enter correct username and password for datatable",
         "aggregatedDurations": {
-          "average": 0.000177465,
-          "median": 0.000177465
+          "average": 0.0007669,
+          "median": 0.0007669
         },
         "durations": [
           {
-            "duration": 0.000177465,
-            "location": "src/test/resources/testscenarios.feature/Tagex.feature:26"
+            "duration": 0.0007669,
+            "location": "src/test/resources/testscenarios.feature/DataTable.feature:26"
           }
         ]
       }
     ]
   },
   {
-    "source": "^login should be successful for tag$",
+    "source": "^login should be successful for datatable$",
     "steps": [
       {
-        "name": "login should be successful for tag",
+        "name": "login should be successful for datatable",
         "aggregatedDurations": {
-          "average": 0.000175844,
-          "median": 0.000175844
+          "average": 0.0000387,
+          "median": 0.0000387
         },
         "durations": [
           {
-            "duration": 0.000175844,
-            "location": "src/test/resources/testscenarios.feature/Tagex.feature:27"
+            "duration": 0.0000387,
+            "location": "src/test/resources/testscenarios.feature/DataTable.feature:30"
           }
         ]
       }

@@ -17,16 +17,10 @@
 ## (Comments)
 #Sample Feature Definition Template
 
+Feature: Scenarios feature file
 
-Feature:
-login with username
-@smoke
-Scenario: login with username 
-Given user navigates to salesforce for datatable
-When enter correct username and password for datatable
-|brijesh9971@gmail.com|Anjli@29| 
-|test2@gmail.com|pswd002| 
-|test3@gmail.com|pswd003| 
-Then login should be successful for datatable
+  Scenario: Scenario Number One
+    Given Step from 'Scenario 1' in 'scenarios' feature file
 
-
+  Scenario: Scenario Number Two
+    Given Step from 'Scenario 2' in 'scenarios' feature file

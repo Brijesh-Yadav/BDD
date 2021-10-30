@@ -25,5 +25,3 @@ Scenario: login with username for tag
 Given user navigates to salesforce  for tag
 When enter correct username and password  for tag
 Then login should be successful for tag
-
-

@@ -17,13 +17,13 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
+
 Feature: As a user 
-I want to create an opportunity in the system.
+I want to create an lead in the system.
 
-@Smoke
-Scenario: Create SF opportunity in the system
+@smoke
+Scenario: Create SF lead in the system
 Given login into salesforce application
-Given navigate to opportunity tab
-When create new opportunity
-Then opportunity is created
-
+Given navigate to lead tab
+When create new lead
+Then lead is created

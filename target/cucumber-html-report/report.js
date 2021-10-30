@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/testscenarios.feature/Tagex.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/testscenarios.feature/DataTable.feature");
 formatter.feature({
   "comments": [
     {
@@ -74,64 +74,83 @@ formatter.feature({
       "value": "#Sample Feature Definition Template"
     }
   ],
-  "line": 20,
+  "line": 21,
   "name": "",
-  "description": "login with username for tag",
+  "description": "login with username",
   "id": "",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 24,
-  "name": "login with username for tag",
+  "name": "login with username",
   "description": "",
-  "id": ";login-with-username-for-tag",
+  "id": ";login-with-username",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 23,
       "name": "@smoke"
-    },
-    {
-      "line": 23,
-      "name": "@regression"
     }
   ]
 });
 formatter.step({
   "line": 25,
-  "name": "user navigates to salesforce  for tag",
+  "name": "user navigates to salesforce for datatable",
   "keyword": "Given "
 });
 formatter.step({
   "line": 26,
-  "name": "enter correct username and password  for tag",
+  "name": "enter correct username and password for datatable",
+  "rows": [
+    {
+      "cells": [
+        "brijesh9971@gmail.com",
+        "Anjli@29"
+      ],
+      "line": 27
+    },
+    {
+      "cells": [
+        "test2@gmail.com",
+        "pswd002"
+      ],
+      "line": 28
+    },
+    {
+      "cells": [
+        "test3@gmail.com",
+        "pswd003"
+      ],
+      "line": 29
+    }
+  ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 27,
-  "name": "login should be successful for tag",
+  "line": 30,
+  "name": "login should be successful for datatable",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Tagex.user_navigates_to_salesforce_for_tag()"
+  "location": "DataTableStepsdef.user_navigates_to_salesforce_for_datatable()"
 });
 formatter.result({
-  "duration": 137846144,
+  "duration": 78901100,
   "status": "passed"
 });
 formatter.match({
-  "location": "Tagex.enter_correct_username_and_password_for_tag()"
+  "location": "DataTableStepsdef.enter_correct_username_and_password_for_datatable(DataTable)"
 });
 formatter.result({
-  "duration": 177465,
+  "duration": 766900,
   "status": "passed"
 });
 formatter.match({
-  "location": "Tagex.login_should_be_successful_for_tag()"
+  "location": "DataTableStepsdef.login_should_be_successful_for_datatable()"
 });
 formatter.result({
-  "duration": 175844,
+  "duration": 38700,
   "status": "passed"
 });
 });

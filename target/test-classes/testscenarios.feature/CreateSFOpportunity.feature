@@ -16,6 +16,7 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+
 @tag
 Feature: As a user 
 I want to create an opportunity in the system.

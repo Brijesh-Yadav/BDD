@@ -16,17 +16,22 @@
 #""
 ## (Comments)
 #Sample Feature Definition Template
+Feature: annotation
 
+  #This is how background can be used to eliminate duplicate steps
+  Background: 
+    User navigates to Facebook
+    Given I am on Facebook login page
 
-Feature:
-login with username
-@smoke
-Scenario: login with username 
-Given user navigates to salesforce for datatable
-When enter correct username and password for datatable
-|brijesh9971@gmail.com|Anjli@29| 
-|test2@gmail.com|pswd002| 
-|test3@gmail.com|pswd003| 
-Then login should be successful for datatable
+  #Scenario with AND
+  Scenario: 
+    When I enter username as "TOM"
+    And I enter password as "JERRY"
+    Then Login should fail
 
-
+  #Scenario with BUT
+  Scenario: 
+    When I enter username as "TOM"
+    And I enter password as "JERRY"
+    Then Login should fail
+    But Relogin option should be available

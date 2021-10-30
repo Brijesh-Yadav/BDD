@@ -17,6 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
+
 Feature: As a Sales user
 I want to be able to add new clients in the system
 So that I can add accounting data for that client

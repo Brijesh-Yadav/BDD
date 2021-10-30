@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.138199">
-<testcase classname="" name="login with username for tag" time="0.138199">
-<system-out><![CDATA[Given user navigates to salesforce  for tag.................................passed
-When enter correct username and password  for tag...........................passed
-Then login should be successful for tag.....................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.079707">
+<testcase classname="" name="login with username" time="0.079707">
+<system-out><![CDATA[Given user navigates to salesforce for datatable............................passed
+When enter correct username and password for datatable......................passed
+Then login should be successful for datatable...............................passed
 ]]></system-out>
 </testcase>
 </testsuite>

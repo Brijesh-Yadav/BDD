@@ -17,6 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 @tag
+
 Feature: login test
   I want to use this template for my feature file
 
